@@ -1,0 +1,5 @@
+aiortc==1.5.0
+websockets==10.4
+websocket-client==1.5.1
+opencv-python==4.7.0.72
+aiohttp==3.8.4 

@@ -1,0 +1,18 @@
+project/
+├── coturn/
+│   ├── Dockerfile
+│   ├── websocket_server.py
+│   └── turnserver.conf
+├── python_client/
+│   ├── requirements.txt
+│   ├── client.py
+│   ├── face_detector.py
+│   └── websocket_handler.py
+└── web_client/
+    ├── index.html
+    ├── css/
+    │   └── style.css
+    ├── js/
+    │   ├── webrtc.js
+    │   └── ui.js
+    └── package.json 

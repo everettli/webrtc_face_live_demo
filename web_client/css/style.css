@@ -1,0 +1,33 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+video {
+    width: 48%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.controls {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+} 
